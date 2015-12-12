@@ -72,6 +72,7 @@ public class ListEddystoneActivity extends BaseActivity {
       @Override public void onEddystonesFound(List<Eddystone> eddystones) {
         toolbar.setSubtitle("Found beacons with Eddystone protocol: " + eddystones.size());
         adapter.replaceWith(eddystones);
+        //changed!!!
       }
     });
 
